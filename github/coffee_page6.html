@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>Forms</title>
+<link href = "style.css"rel = "stylesheet"type = "text/css"/>
+</head>
+<body>
+<header>
+<h1>All about Coffee</h1>
+<nav>
+<ul>
+<li><a href = "coffee_page.html">Home</a><li>
+<li><a href = "coffee_page2.html">Brewing</a><li>
+<li><a href = "coffee_page3.html">Grinding</a><li>
+<li><a href = "coffee_page4.html">Roasting</a><li>
+<li><a href = "coffee_page5.html">Drinks</a><li>
+<li><a href = "coffee_page6.html">Coffee Survey</a><li>
+</ul>
+</nav>
+</header>
+<h1>Coffee Survey</h1>
+<aside>
+<figure>
+<img src = "coffee_image5.jpg"alt = "a cup of espresso"/>
+</figure>
+</aside>
+<form action ="coffee-survey/php"method = "post">
+<fieldset>
+<legend>Presonal Information</legend>
+Your Name<br/>
+<input type = "text" name = "name"required size = "40"/><br/>
+Email Address<br/>
+<input type = "email"name = "name"required placeholder = "enter a valid email"size = "40"/>
+<br/>
+</fieldset>
+<fieldset>
+<legend>Your Coffee Preferences</legend>
+Tell us your coffee preparation methods.<br/>
+ <textarea name = "preparation"cols = "40"rows = "6"></textarea><br/><br/>
+Do you grind your own bears?<br/>
+<input type = "radio"name = "yes"/>yes<br/>
+<input type = "radio"name = "no"/>no<br/>
+<br/>
+How do you drink your coffee?<br/>
+<input type = "checkbox"name = "drink"value = "sugar"/>with sugar<br/> 
+<input type = "checkbox"name = "drink"value = "cream"/>with cream<br/>
+<br/>
+What is your favorite coffee drink?<br/>
+<select name = "favorite">
+<option id = "">please select a drink</option> 
+<option id = "drip">drip coffee</option>
+<option id = "french">french press</option>
+<option id = "espresso">espresso</option>
+<option id = "latte">latte</option>
+<option id = "flavored">flavored</option>
+</select>
+</fieldset>
+</form>
+<footer>
+<nav>
+<ul>
+<li><a href = "coffee_page.html">Home</a><li>
+<li><a href = "coffee_page2.html">Brewing</a><li>
+<li><a href = "coffee_page3.html">Grinding</a><li>
+<li><a href = "coffee_page4.html">Roasting</a><li>
+<li><a href = "coffee_page5.html">Drinks</a><li>
+<li><a href = "coffee_page6.html">Coffee Survey</a><li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>
